@@ -1,0 +1,21 @@
+input {
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
+  width: 50%;
+  height: 25px;
+  background: #dcdebc;
+  border: 1px solid #5c5b40;
+  border-radius: 5px;
+}
+input:hover {
+  cursor: pointer;
+}
+input::-webkit-slider-thumb, input::-moz-range-thumb  {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #5c5b40;
+  border: 4px double #dcdebc;
+}

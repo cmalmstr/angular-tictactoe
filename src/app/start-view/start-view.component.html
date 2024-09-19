@@ -1,0 +1,7 @@
+<section class="infoView">
+  <h2>Tic-Tac-Toe</h2>
+  <p>Select board size and start new game!</p>
+  <p>{{boardSize}}</p>
+  <input type="range" min="3" max="12" value="3" [(ngModel)]="boardSize">
+  <button routerLink="/game" (click)="startGame()">Start game</button>
+</section>

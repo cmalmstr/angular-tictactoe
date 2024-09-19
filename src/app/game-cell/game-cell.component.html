@@ -1,0 +1,9 @@
+<section class="cell" (click)="cellClick()" routerLink="/end">
+  @if(marked){
+    @if(mark == 0){
+      <app-osvg class="marker"/>
+    } @else {
+      <app-xsvg class="marker"/>
+    }
+  }
+</section>

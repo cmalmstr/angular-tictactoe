@@ -1,0 +1,9 @@
+<section class="infoView">
+  @if(result.charAt(0) == 'O'){
+    <app-osvg class="marker"/>
+  } @else if (result.charAt(0) == 'X'){
+    <app-xsvg class="marker"/>
+  }
+  <p>{{result}}</p>
+  <button routerLink="/">Start new game</button>
+</section>

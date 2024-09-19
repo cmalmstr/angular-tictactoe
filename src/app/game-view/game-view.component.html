@@ -1,0 +1,9 @@
+<section class="gameView"
+         [ngStyle]="{
+         'grid-template-columns': 'repeat('+gameSize+', 1fr)',
+         'grid-template-rows': 'repeat('+gameSize+', 1fr)'}"
+>
+  @for(cell of gameCells; track $index){
+    <app-game-cell index="{{$index}}" />
+  }
+</section>

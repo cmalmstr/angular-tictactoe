@@ -1,0 +1,16 @@
+.wrapper {
+  width: 50vw;
+  height: 50vw;
+  max-width: 640px;
+  max-height: 640px;
+  min-width: 250px;
+  min-height: 250px;
+  background-color: #dcdebc;
+  background-image: radial-gradient( ellipse farthest-corner at 4px 4px , #fdfdd5, #fdfdd5 50%, #dcdebc 50%);
+  background-size: 4px 4px;
+  margin-top: 50px;
+  padding: 30px;
+  border: 10px double #5c5b40;
+  border-radius: 25px;
+}
+
